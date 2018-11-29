@@ -79,6 +79,7 @@ var _util3 = __webpack_require__(2);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 console.log(_util2.default);
+console.log('ddd');
 (0, _util3.fn1)();
 (0, _util3.fn2)();
 
