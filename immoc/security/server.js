@@ -9,6 +9,7 @@ app.use(koaStatic('./static', {
 const bodyParser = require('koa-bodyparser');
 app.use(bodyParser());
 
+// 使用pub作为模板引擎
 const Pug = require('koa-pug');
 /*const pug = */new Pug({
 	app,
